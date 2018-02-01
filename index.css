@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+html {
+    
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--black);
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+  }
+  /* .head-img{
+      width:90%;
+      height:300px;
+     margin-right:20px;
+  } */
+
+  .head-box{
+      top:0;
+      position:fixed;
+      width:100%;
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      background-color: azure;
+      height:100px;
+      text-align:center;
+      align-items: center;
+      font-size:20px;
+      color:red;
+  }
+
+  .logo-img,img{
+    width:200px;
+    height:100px;
+  }
+
+  .head-sec{
+     margin-bottom:10px;
+  }
+  main{
+      margin-bottom:100px;
+      margin-top:100px;
+      margin-left:50px;
+      display:grid;
+      /* grid-template-rows: 1fr 1fr; */
+      grid-gap:30px;
+  }
+
+  .trending{
+      display:grid;
+      grid-gap:30px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .upToNow{
+    display:grid;
+    grid-gap:30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.politics{
+    display:grid;
+    grid-gap:30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.sports{
+    display:grid;
+    grid-gap:30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.news{
+    width:250px;
+    height:280px;
+    background-color: cornsilk;
+}
+
+.data{
+    margin:3px 3px 3px 3px;
+    padding:5px;
+    text-align: center;
+    overflow: hidden;
+}
