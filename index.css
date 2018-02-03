@@ -44,7 +44,6 @@ html {
   main{
       margin-bottom:100px;
       margin-top:100px;
-      margin-left:50px;
       display:grid;
       /* grid-template-rows: 1fr 1fr; */
       grid-gap:30px;
